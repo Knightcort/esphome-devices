@@ -187,7 +187,7 @@ text_sensor:
 This will create sensors so that you can track wifi coverage for the devices, and also note the uptime for the devices.
 
 ```yaml
-sensors:
+sensor:
   - platform: wifi_signal
     name: '${device_name} WiFi Signal'
     update_interval: 60s
